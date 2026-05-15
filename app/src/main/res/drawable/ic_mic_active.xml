@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Pulsing outer ring -->
+    <path
+        android:fillColor="#4003DAC6"
+        android:pathData="M40,40m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+
+    <!-- Active circle background -->
+    <path
+        android:fillColor="#03DAC6"
+        android:pathData="M40,40m-34,0a34,34 0,1 1,68 0a34,34 0,1 1,-68 0" />
+
+    <!-- Microphone body (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,18 C35.58,18 32,21.58 32,26 L32,40 C32,44.42 35.58,48 40,48 C44.42,48 48,44.42 48,40 L48,26 C48,21.58 44.42,18 40,18 Z" />
+
+    <!-- Microphone stand arc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,38 C24,46.84 31.16,54 40,54 C48.84,54 56,46.84 56,38 L52,38 C52,44.63 46.63,50 40,50 C33.37,50 28,44.63 28,38 Z" />
+
+    <!-- Mic stand line -->
+    <rect
+        android:fillColor="#FFFFFF"
+        android:height="6"
+        android:width="3"
+        android:x="38.5"
+        android:y="54" />
+
+    <!-- Mic base -->
+    <rect
+        android:fillColor="#FFFFFF"
+        android:height="3"
+        android:width="16"
+        android:x="32"
+        android:y="60" />
+</vector>

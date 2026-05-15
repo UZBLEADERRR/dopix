@@ -1,0 +1,29 @@
+# Keystore fayllar (HECH QACHON commit qilinmasin!)
+*.keystore
+*.jks
+keystore.properties
+
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+
+# Android Studio / IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# IDE / Editor configs
+.vscode/
+.claude/
+
+# Captures / profiling
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Test results
+*.hprof

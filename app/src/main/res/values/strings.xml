@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dopix</string>
+    <string name="accessibility_service_label">Dopix Assistant</string>
+    <string name="accessibility_service_description">Dopix uses Accessibility Service to inject text into input fields and perform gestures in other apps.</string>
+
+    <!-- Main Activity -->
+    <string name="title_dopix">Dopix Voice Assistant</string>
+    <string name="hint_api_key">Enter Gemini API Key</string>
+    <string name="btn_start">Start Dopix</string>
+    <string name="btn_stop">Stop Dopix</string>
+    <string name="label_status">Status: Idle</string>
+    <string name="label_permissions">Permissions</string>
+    <string name="btn_grant_overlay">Grant Overlay Permission</string>
+    <string name="btn_grant_accessibility">Enable Accessibility Service</string>
+    <string name="btn_grant_microphone">Grant Microphone Permission</string>
+    <string name="status_sleeping">Status: Sleeping</string>
+    <string name="status_active">Status: Active — Listening</string>
+    <string name="status_connecting">Status: Connecting…</string>
+    <string name="status_stopped">Status: Stopped</string>
+    <string name="api_key_saved">API key saved</string>
+    <string name="all_permissions_granted">All permissions granted</string>
+    <string name="missing_api_key">Please enter your Gemini API key first</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_id">dopix_service</string>
+    <string name="notif_channel_name">Dopix Service</string>
+    <string name="notif_overlay_title">Dopix Overlay</string>
+    <string name="notif_overlay_text">Floating assistant is active</string>
+    <string name="notif_gemini_title">Dopix Listening</string>
+    <string name="notif_gemini_text">Say \"dopix aktivlash\" to wake up</string>
+
+    <!-- Wake words -->
+    <string name="wake_word_activate">dopix aktivlash</string>
+    <string name="wake_word_deactivate">dopix uxla</string>
+
+    <!-- Commands -->
+    <string name="cmd_next">keyingisi</string>
+    <string name="cmd_prev">oldingisi</string>
+    <string name="cmd_open_youtube">youtubeni och</string>
+    <string name="cmd_open_instagram">instagramni och</string>
+</resources>

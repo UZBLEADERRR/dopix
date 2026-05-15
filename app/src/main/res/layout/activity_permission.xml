@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dopix needs permissions"
+        android:textColor="@color/colorOnBackground"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnGrantOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/btn_grant_overlay"
+        android:textColor="@color/colorOnPrimary" />
+
+    <Button
+        android:id="@+id/btnGrantMic"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/btn_grant_microphone"
+        android:textColor="@color/colorOnPrimary" />
+
+    <Button
+        android:id="@+id/btnGrantAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_grant_accessibility"
+        android:textColor="@color/colorOnPrimary" />
+
+</LinearLayout>
