@@ -21,18 +21,12 @@
         android:pathData="M24,38 C24,46.84 31.16,54 40,54 C48.84,54 56,46.84 56,38 L52,38 C52,44.63 46.63,50 40,50 C33.37,50 28,44.63 28,38 Z" />
 
     <!-- Mic stand line -->
-    <rect
+    <path
         android:fillColor="#FFFFFF"
-        android:height="6"
-        android:width="3"
-        android:x="38.5"
-        android:y="54" />
+        android:pathData="M38.5,54 h3 v6 h-3 Z" />
 
     <!-- Mic base -->
-    <rect
+    <path
         android:fillColor="#FFFFFF"
-        android:height="3"
-        android:width="16"
-        android:x="32"
-        android:y="60" />
+        android:pathData="M32,60 h16 v3 h-16 Z" />
 </vector>

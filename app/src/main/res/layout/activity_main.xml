@@ -291,7 +291,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Say \"dopix aktivlash\" to activate\nSay \"dopix uxla\" to sleep"
+            android:text="Say &quot;dopix aktivlash&quot; to activate&#10;Say &quot;dopix uxla&quot; to sleep"
             android:textColor="#80FFFFFF"
             android:textSize="12sp"
             android:gravity="center"

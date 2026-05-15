@@ -188,7 +188,11 @@ class ScreenController(val service: AccessibilityService) {
         val root = service.rootInActiveWindow ?: return false
         val inputNode = findFocusedInput(root)
         if (inputNode != null) {
-            val result = inputNode.performAction(AccessibilityNodeInfo.ACTION_IME_ENTER)
+            val result = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R) {
+                inputNode.performAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_IME_ENTER.id)
+            } else {
+                inputNode.performAction(AccessibilityNodeInfo.ACTION_CLICK)
+            }
             inputNode.recycle()
             root.recycle()
             return result
